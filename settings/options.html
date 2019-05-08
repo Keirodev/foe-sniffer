@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="options.css">
+  </head>
+
+  <body>
+
+    <form id="FOE_Settings">
+<div>
+	<header>
+	  <img alt="FOE Logo" src="../images/logo.png">
+	  <h1>
+		<strong>FOE Sniffer</strong>
+	  </h1>
+	  <p id="titre" class="titre">Préférences</p>
+	</header>
+	<div class="tabpanels">
+
+<details id="details-panel1" open="open" class="wb-auto-2-grp fade in" role="tabpanel" tabindex="-1" aria-hidden="false" aria-expanded="true" aria-labelledby="details-panel1-lnk">
+<summary id="summary1" class="wb-toggle tgl-tab wb-init wb-toggle-inited" data-toggle="{&quot;parent&quot;: &quot;#wb-auto-2&quot;, &quot;group&quot;: &quot;.wb-auto-2-grp&quot;}" aria-hidden="true" id="wb-auto-3" role="tab" aria-selected="true" tabindex="0" aria-posinset="1" aria-setsize="3">Paramètres généraux</summary>
+<div class="tgl-panel" aria-labelledby="wb-auto-3" aria-expanded="true" aria-hidden="false">
+<p id="boite1" class="infos">
+Activer ou désactiver une fonctionnalité de FOE Sniffer<br/>
+Toutes les boites d'affichage sont librement déplaçables dans le jeu.<br/>
+La case "Coordonnées par défaut" permet de réinitialiser aux valeurs par défaut les coordonnées des différentes boites.<br/>
+Vous devez rafraîchir le jeu pour que vos préférences soient prises en compte.<br/><br/>
+A noter : Les boites s'affichent en survol sur une des fonctionnalité et disparaissent soit par le survol d'une autre fonctionnalité, soit par le survol de "Caché".<br/>
+</p>
+<p>
+<input id="activite" type="checkbox">
+<label id="label_activite" for="activite" style="padding-right: 25px;">Activités des amis</label>
+<input id="infosGM" type="checkbox">
+<label id="label_infosGM" for="infosGM" style="padding-right: 25px;">Informations GM</label>
+<input id="colonies" type="checkbox">
+<label id="label_colonies" for="colonies"style="padding-right: 25px;">Informations Colonies</label>
+<input id="reset_coord" type="checkbox">
+<label id="label_reset_coord" for="reset_coord" style="padding-right: 25px;">Coordonnées par défaut</label>
+</p>
+</div>
+</details>
+<details id="details-panel2" open="open" class="wb-auto-2-grp fade in" role="tabpanel" tabindex="-1" aria-hidden="false" aria-expanded="true" aria-labelledby="details-panel1-lnk">
+<summary id="summary2" class="wb-toggle tgl-tab wb-init wb-toggle-inited" data-toggle="{&quot;parent&quot;: &quot;#wb-auto-2&quot;, &quot;group&quot;: &quot;.wb-auto-2-grp&quot;}" aria-hidden="true" id="wb-auto-3" role="tab" aria-selected="true" tabindex="0" aria-posinset="1" aria-setsize="3">Expérimental</summary>
+<div class="tgl-panel" aria-labelledby="wb-auto-3" aria-expanded="true" aria-hidden="false">
+<p id="boite2" class="infos">
+Activer ou désactiver l'affichage de la carte de votre cité ou de votre colonie.<br/>
+On pourra retrouver également sur cette carte des informations concernant les incidents :<br/>
+- Région de présence (Nature, Plage, Eau, Route, Rue à 2 voies, ...).<br/>
+- Nombre ou heure à partir de laquelle l'incident apparaîtra.<br/>
+Cette fonctionnalité peut alourdir les performances globales : si vous trouvez que la gestion de la carte pénalise trop le jeu, vous pouvez la désactiver ici.<br/>
+</p>
+<p>
+<input id="carte" type="checkbox">
+<label id="label_carte" for="carte" style="padding-right: 25px;">Carte</label>
+</p>
+</div>
+</details>
+<!--
+<details id="details-panel2" class="wb-auto-2-grp fade in" role="tabpanel" tabindex="-1" aria-hidden="false" aria-expanded="true" aria-labelledby="details-panel1-lnk">
+<summary class="wb-toggle tgl-tab wb-init wb-toggle-inited" data-toggle="{&quot;parent&quot;: &quot;#wb-auto-2&quot;, &quot;group&quot;: &quot;.wb-auto-2-grp&quot;}" aria-hidden="true" id="wb-auto-3" role="tab" aria-selected="true" tabindex="0" aria-posinset="1" aria-setsize="3">Session en cours</summary>
+<div class="tgl-panel" aria-labelledby="wb-auto-3" aria-expanded="true" aria-hidden="false">
+<p>
+<label for="FOEHisto">Nombre d'évènement conservés en historique (0: pas d'historique) :</label>
+<select id="FOEHisto">
+  <option value="0">0</option> 
+  <option value="10">10</option> 
+  <option value="50">50</option> 
+  <option value="100">100</option> 
+  <option value="500">500</option> 
+  <option value="1000">1000</option> 
+  <option value="10000">10000</option> 
+</select>
+</p>
+<p id="FOESession1" class="infos">
+</p>
+<p id="FOESession2" class="infos">
+</p>
+<p id="FOESession3" class="infos">
+</p>
+</div>
+</details>
+-->
+	</div>
+</div>
+<br/>
+<!--<button id="defaultbutton" type="button">Par Defaut</button>-->
+<button id="donebutton" type="submit">Valider</button>
+    </form>
+	</div>
+
+    <script src="settings.js"></script>
+
+  </body>
+
+</html>

@@ -1,0 +1,53 @@
+{
+  "applications": {
+    "gecko": {
+      "id": "{f2ae370f-95b4-4cd8-b417-dab5e3bd7148}",
+      "strict_min_version": "57.0"
+    }
+  },
+  
+  "description": "__MSG_extensionDescription__",
+  "manifest_version": 2,
+  "name": "FOE Sniffer",
+  "version": "1.1.4",
+  "homepage_url": "http://freddyp2.free.fr/",
+  "icons": {
+    "48": "images/icon_FOE.png"
+  },
+  
+  "content_scripts": [
+    {
+      "matches": ["*://*.forgeofempires.com/game/index*"],
+      "js": ["foe_content.js"],
+	  "all_frames": true
+    }
+  ],
+
+  "options_ui": {
+	"browser_style": true,
+    "page": "settings/options.html"
+  },
+
+  "permissions": [
+	"notifications",
+	"storage",
+    "webRequest", "webRequestBlocking",
+    "*://*.forgeofempires.com/*",
+	"*://*.innogamescdn.com/*"
+  ],
+
+  "web_accessible_resources": [
+    "images/*.gif",
+    "images/*.png",
+    "images/*.css",
+    "settings/*.css",
+    "settings/*.html",
+    "settings/*.js",
+    "scripts/*.js"  ],
+
+  "background": {
+    "scripts": ["foe_background.js"]
+  },
+  
+  "default_locale": "en"
+}

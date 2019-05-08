@@ -1,0 +1,454 @@
+.tdtowncol {
+	border:solid 1px silver;
+	background-color:blue;
+	width:12px;
+	height:12px; 
+}
+
+.tdhousecol {
+	border:solid 1px silver;
+	background-color:cornflowerblue;
+	width:12px;
+	height:12px; 
+}
+
+.tdprodcol {
+	border:solid 1px silver;
+	background-color:green;
+	width:12px;
+	height:12px; 
+}
+
+.tdgoodcol {
+	border:solid 1px silver;
+	background-color:cyan;
+	width:12px;
+	height:12px; 
+}
+
+.tdmilcol {
+	border:solid 1px silver;
+	background-color:olive;
+	width:12px;
+	height:12px; 
+}
+
+.tdgbcol {
+	border:solid 1px silver;
+	background-color:purple;
+	width:12px;
+	height:12px; 
+}
+
+.tddecocol {
+	border:solid 1px silver;
+	background-color:navy;
+	width:4px;
+	height:4px; 
+}
+
+.tdgreencol {
+/*	border:none; */
+	border:solid 1px silver;
+	background-color:lime;
+	width:12px;
+	height:12px; 
+}
+
+.tdblackcol {
+/*	border:none; */
+	border:solid 1px black;
+	background-color:black;
+	width:12px;
+	height:12px;
+}
+
+.tddftcol {
+	border:none;
+/*	width:12px;
+	height:12px; */
+}
+
+.tdbrowncol {
+/*	border:none; */
+	border:solid 1px silver;
+	background-color:brown;
+	width:12px;
+	height:12px;
+}
+
+.tdorangecol {
+	border:solid 1px silver;
+	background-color:orange;
+	width:12px;
+	height:12px;
+}
+
+.tdredcol {
+	border:solid 1px silver;
+	background-color:red;
+	width:12px;
+	height:12px;
+}
+
+.tdyellowcol {
+	border:solid 1px silver;
+	background-color:yellow;
+	width:12px;
+	height:12px;
+}
+
+.tdstreetcol {
+	border:solid 1px gray;
+	background-color:aliceblue;
+	width:12px;
+	height:12px;
+}
+
+.tdmapcol {
+/*	background-color:yellow; */
+	border:solid 1px gray;
+	width:12px;
+	height:12px;
+}
+
+.tdtown {
+	border:solid 1px silver;
+	background-color:blue;
+	width:4px;
+	height:4px; 
+}
+
+.tdhouse {
+	border:solid 1px silver;
+	background-color:cornflowerblue;
+	width:4px;
+	height:4px; 
+}
+
+.tdprod {
+	border:solid 1px silver;
+	background-color:green;
+	width:4px;
+	height:4px; 
+}
+
+.tdgood {
+	border:solid 1px silver;
+	background-color:cyan;
+	height:4px; 
+	width:4px;
+}
+
+.tdmil {
+	border:solid 1px silver;
+	background-color:olive;
+	height:4px; 
+	width:4px;
+}
+
+.tdgb {
+	border:solid 1px silver;
+	background-color:purple;
+	width:4px;
+	height:4px; 
+}
+
+.tddeco {
+	border:solid 1px silver;
+	background-color:navy;
+	width:4px;
+	height:4px; 
+}
+
+.tdgreen {
+/*	border:none; */
+	border:solid 1px silver;
+	background-color:lime;
+	width:4px;
+	height:4px; 
+}
+
+.tdblack {
+/*	border:none; */
+	border:solid 1px black;
+	background-color:black;
+	width:4px;
+	height:4px;
+}
+
+.tddft {
+	border:none;
+/*	width:4px;
+	height:4px; */
+}
+
+.tdbrown {
+/*	border:none; */
+	border:solid 1px silver;
+	background-color:brown;
+	width:4px;
+	height:4px;
+}
+
+.tdorange {
+	border:solid 1px silver;
+	background-color:orange;
+	width:4px;
+	height:4px;
+}
+
+.tdred {
+	border:solid 1px silver;
+	background-color:red;
+	width:4px;
+	height:4px;
+}
+
+.tdyellow {
+	border:solid 1px silver;
+	background-color:yellow;
+	width:4px;
+	height:4px;
+}
+
+.tdstreet {
+	border:solid 1px gray;
+	background-color:aliceblue;
+	width:4px;
+	height:4px;
+}
+
+.tdmap {
+/*	background-color:yellow; */
+	border:solid 1px gray;
+	width:4px;
+	height:4px;
+}
+
+.tdcol {
+	border:solid 2px rgb(240, 229, 174);
+	height:30px;
+	font: 12px "Verdana";
+}
+
+.cldiv {
+	position:absolute;
+	top:19px;
+	left:450px;
+/*	height:640px;*/
+	border:0; 
+	background:transparent;
+	z-index: 100;
+	display:none;
+}
+
+.fs_div {
+   font: 12px "Verdana";
+   color:rgb(240, 229, 174);
+   text-align:left;
+}
+
+#menu_foe_top {
+   position:absolute;
+   top:0px;
+   left:450px;
+   font: 12px "Verdana";
+   color:rgb(240, 229, 174);
+   z-index: 100;
+   height: 18px;
+}
+
+#menu_foe_top, #menu_foe ul {
+   padding:0;
+   margin:0;
+   list-style: none;
+   text-align: center;
+}
+#menu_foe_top li {
+   display:inline-block;
+   position: relative;
+   background: rgb(90,50,26);
+   text-align: left;
+   border-width:1px;
+   border-style:solid;
+   border-color:rgb(240, 229, 174);
+/*   height: 13px;*/
+}
+#menu_foe_top ul li {
+   display:block;
+   position: relative;
+   background: #666;
+}
+#menu_foe_top ul {
+   position:absolute;
+   left:0;
+   height: 0;
+/*   width:350px; */
+   overflow:hidden; 
+   -moz-transition: all 1s;
+   top:0;
+}
+#menu_foe_top li:hover ul {
+/*	
+   top:-108px;
+   height: 108px;
+   top:-1000px;
+*/   
+/*   top:28px; */
+/*   top:46px;*/
+   top:15px;
+   height: auto;
+}
+
+#menu_foe_top a {
+   color:rgb(240, 229, 174);
+   display:block;
+   height:24px;
+   line-height: 24px;
+   text-decoration: none;
+   padding:0 12px;
+}
+#menu_foe_top img {
+   height:24px;
+   line-height: 24px;
+   padding:0 12px;
+   vertical-align: middle;
+}
+#menu_foe_top ul li a {
+   padding:0px;
+}
+
+#menu_foe_bottom {
+   position:absolute;
+   bottom:0;
+   right:0;
+   font: 12px "Verdana";
+   color:rgb(240, 229, 174);
+}
+#menu_foe_bottom, #menu_foe ul {
+   padding:0;
+   margin:0;
+   list-style: none;
+   text-align: center;
+}
+#menu_foe_bottom li {
+   display:inline-block;
+   position: relative;
+   background: rgb(90,50,26);
+   text-align: left;
+   border-width:1px;
+   border-style:solid;
+   border-color:rgb(240, 229, 174);
+}
+#menu_foe_bottom ul li {
+   display:block;
+   position: relative;
+   background: #666
+}
+#menu_foe_bottom ul {
+   position:absolute;
+   height: 0;
+   width:100%;
+   overflow:hidden;
+   -moz-transition: all 1s;
+   top:0;
+}
+#menu_foe_bottom li:hover ul {
+   top:-108px;
+   height: 108px;
+   height: auto;
+}
+#menu_foe_bottom a {
+   color:rgb(240, 229, 174);
+   display:block;
+   height:24px;
+   line-height: 24px;
+   text-decoration: none;
+   padding:0 12px;
+}
+#menu_foe_bottom img {
+   height:24px;
+   line-height: 24px;
+   padding:0 12px;
+   vertical-align: middle;
+}
+#menu_foe_bottom ul li a {
+   padding:0px;
+}
+table{
+		border-collapse:collapse;
+}
+th{
+	background-color:rgb(90,50,26);
+	color:white;
+}
+th,td{
+	border:solid 1px rgb(240, 229, 174);
+	width :80px;
+}
+#foe-li1-div textarea{
+	overflow:hidden; 
+	resize: none; 
+	border: 0; 
+	background:transparent; 
+	width:0px; 
+	height:0px;
+	position:relative;
+	top:46px;
+}
+#foe-li1-div button{
+	background-color:rgb(90,50,26);
+	color:white;
+	border:solid 1px rgb(240, 229, 174);
+	position:relative;
+	top:46px;
+}
+/*
+#foe-info div {
+	overflow-y:auto; 
+	height:auto; 
+	max-height:571px; 
+	width:350px; 
+	max-width:350px; 
+	font: 10px "Verdana"; 
+	position: relative; 
+	top:46px; 
+	border-width:1px; 
+	border-style:solid; 
+	border-color:rgb(240, 229, 174); 
+	background-color:rgb(90,50,26);
+}
+
+#foe-GM1 div {
+	overflow-y:auto; 
+	overflow-x:auto; 
+	height:auto; 
+	max-height:300px; 
+	width:auto; 
+	max-width:1000px; 
+	font: 10px "Verdana"; 
+	position: relative; 
+	top:46px; 
+	border-width:1px; 
+	border-style:solid; 
+	border-color:rgb(240, 229, 174); 
+	background-color:rgb(90,50,26);
+}
+
+#foe-GM2 div {
+	overflow-y:auto; 
+	overflow-x:auto; 
+	height:auto; 
+	max-height:300px; 
+	width:auto; 
+	max-width:1000px; 
+	font: 10px "Verdana"; 
+	position: relative; 
+	top:46px; 
+	border-width:1px; 
+	border-style:solid; 
+	border-color:rgb(240, 229, 174); 
+	background-color:rgb(90,50,26);
+}
+*/

@@ -1,0 +1,184 @@
+{
+  "extensionDescription": {
+    "message": "Adding additional information in Forge of Empires"
+  },
+
+  "OptionTitre": {
+	"message": "Preferences"
+  },
+  "OptionSummary1": {
+	"message": "General settings"
+  },
+  "OptionBoite1": {
+    "message": "Activate or deactivate a FOE Sniffer feature<br/>All display boxes are freely movable in the game.<br/>The « Default Coordinates » box is used to reset the coordinates of the different boxes to the default values.<br/>You must refresh the game so that your preferences are taken into account.<br/><br/>Note: The boxes are displayed by hovering over one of the features and disappear either by hovering over another feature either by hovering over « Hidden ».<br/>"
+  },
+  "OptionLabel_Activite": {
+	"message": "Friends activities"
+  },
+  "OptionLabel_InfosGM": {
+	"message": "GB Information"
+  },
+  "OptionLabel_Colonies": {
+	"message": "Settlement Information"
+  },
+  "OptionLabel_Reset_coord": {
+	"message": "Default Coordinates"
+  },
+  "OptionSummary2": {
+	"message": "Experimental"
+  },
+  "OptionBoite2": {
+    "message": "Enable or disable the map display of your city or settlement.<br/>It will also be possible to find on this map information concerning incidents:<br/>- Area of presence (Nature, Shore, Water, Road, Big road, ...).<br/>- Number or hour from which the incident will appear.<br/>This feature can add to the overall performance: if you find that the map management is penalizing the game too much, you can disable it here.<br/>"
+  },
+  "OptionLabel_Carte": {
+	"message": "Map"
+  },
+  "OptionDone": {
+	"message": "OK"
+  },
+  "Colonies": {
+	"message": "Settlements"
+  },
+  "Tout_copier": {
+	"message": "Copy All"
+  },
+  "Infos_GM": {
+	"message": "GB Infos"
+  },
+  "Infos_Carte": {
+	"message": "Map"
+  },
+  "Legende": {
+	"message": "Legend"
+  },
+  "Place_disponible": {
+	"message": "Space available"
+  },
+  "Production_en_attente": {
+	"message": "Production pending"
+  },
+  "Production_terminee": {
+	"message": "Production completed"
+  },
+  "Deconnecte": {
+	"message": "Offline / Under construction"
+  },
+  "Route": {
+	"message": "Road"
+  },
+  "Hotel_de_ville": {
+	"message": "Town Hall"
+  },
+  "Residentiels": {
+	"message": "Residentials"
+  },
+  "Productions": {
+	"message": "Productions"
+  },
+  "Ressources": {
+	"message": "Goods"
+  },
+  "Militaires": {
+	"message": "Militaries"
+  },
+  "Diplomatie": {
+	"message": "Diplomacies"
+  },
+  "Grands_Monuments": {
+	"message": "Great Buildings"
+  },
+  "Decorations": {
+	"message": "Decoration/Others"
+  },
+  "Place_occupee": {
+	"message": "Space unavailable"
+  },
+  "Cache": {
+	"message": "Hidden"
+  },
+  "Rue_a_2_voies": {
+	"message": "Big road"
+  },
+  "Nature": {
+	"message": "Nature"
+  },
+  "Plage": {
+	"message": "Shore"
+  },
+  "Eau": {
+	"message": "Water"
+  },
+  "Relique_Expedition": {
+	"message": "Relic Expedition"
+  },
+  "Haches": {
+	"message": "Axes"
+  },
+  "Hydromel": {
+	"message": "Mead"
+  },
+  "Cornes": {
+	"message": "Horns"
+  },
+  "Laine": {
+	"message": "Wool"
+  },
+  "Besoins": {
+	"message": "Needs"
+  },
+  "Cout": {
+	"message": "Cost"
+  },
+  "1_Prod_4": {
+	"message": "1 Prod 4/8 H"
+  },
+  "1_Prod_Jour": {
+	"message": "1 Prod Day"
+  },
+  "AbrJour": {
+	"message": "d"
+  },
+  "Investis": {
+	"message": "Invested"
+  },
+  "Bloque": {
+	"message": "Blocked"
+  },
+  "Bonus": {
+	"message": "Bonus"
+  },
+  "Gain": {
+	"message": "Gain"
+  },
+  "PF_restants": {
+	"message": "FP remaining"
+  },
+  "Investissement": {
+	"message": "Investment"
+  },
+  "Nom": {
+	"message": "Name"
+  },
+  "Voisin": {
+	"message": "Neighbour"
+  },
+  "Guilde": {
+	"message": "Guild"
+  },
+  "Ami": {
+	"message": "Friend"
+  },
+  "Rang": {
+	"message": "Rank"
+  },
+  "PoliMoti": {
+	"message": "PoliMoti"
+  },
+  "Taverne": {
+	"message": "Tavern"
+  },
+
+  "La_Fin": {
+	"message": "La fin"
+  }
+}
